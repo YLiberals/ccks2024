@@ -1,0 +1,92 @@
+{
+  "WebQSP_Freebase_NQ_train": {
+    "script_url": "WebQSP_Freebase_NQ_train",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "history": "history"
+    }
+  },
+  "WebQSP_Sort_Relationships_train": {
+    "script_url": "WebQSP_Sort_Relationships_train",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "history": "history"
+    }
+  },
+  "WebQSP_Freebase_NQ_train_KGMHP": {
+    "script_url": "WebQSP_Freebase_NQ_train_KGMHP",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "history": "history"
+    }
+  },
+  "WebQSP_Freebase_NQ_test_KGMHP": {
+    "script_url": "WebQSP_Freebase_NQ_test_KGMHP",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "history": "history"
+    }
+  },
+  "WebQSP_Freebase_NQ_test": {
+    "script_url": "WebQSP_Freebase_NQ_test",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "history": "history"
+    }
+  },
+  "CWQ_Freebase_NQ_train": {
+    "script_url": "CWQ_Freebase_NQ_train",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "history": "history"
+    }
+  },
+  "CWQ_Freebase_NQ_train_KGMHP": {
+    "script_url": "CWQ_Freebase_NQ_train_KGMHP",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "history": "history"
+    }
+  },
+  "CWQ_Freebase_NQ_test_KGMHP": {
+    "script_url": "CWQ_Freebase_NQ_test_KGMHP",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "history": "history"
+    }
+  },
+  "CWQ_Sort_Relationships_train": {
+    "script_url": "CWQ_Sort_Relationships_train",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "history": "history"
+    }
+  },
+  "CWQ_Freebase_NQ_test": {
+    "script_url": "CWQ_Freebase_NQ_test",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "history": "history"
+    }
+  }
+}

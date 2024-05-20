@@ -1,0 +1,27 @@
+PREFIX ns: <http://rdf.freebase.com/ns/>
+SELECT DISTINCT ?x
+WHERE {
+    FILTER (?x != ?c)
+    FILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))
+    ?c ns:education.educational_institution.sports_teams ns:m.03d0l76 . 
+    ?c ns:organization.organization.headquarters ?y .
+    ?y ns:location.mailing_address.state_province_region ?x .
+}   
+
+
+select ?x where { <莫妮卡·贝鲁奇> <代表作品> ?x. }
+
+PREFIX ns: <http://rdf.freebase.com/ns/>\nSELECT DISTINCT ?x\nWHERE {\nFILTER (?x != ?c)\nFILTER (!isLiteral(?x) OR lang(?x) = '' OR langMatches(lang(?x), 'en'))\n?c ns:education.educational_institution.sports_teams ns:m.03d0l76 . \n?c ns:organization.organization.headquarters ?y .\n?y ns:location.mailing_address.state_province_region ?x .\n}\n
+
+#MANUAL SPARQL
+PREFIX ns: <http://rdf.freebase.com/ns/>
+SELECT DISTINCT ?x
+WHERE {
+    FILTER (?x != ?c)
+    FILTER (!isLiteral(?x) OR (lang(?x) = '' OR lang(?x) = 'en'))
+    ?c ns:location.country.currency_used ns:m.035qkb . 
+    ?c ns:location.location.adjoin_s ?y .
+    ?y ns:location.adjoining_relationship.adjoins ?x .
+    { {?x ns:common.topic.notable_types ns:m.01mp .} UNION {?x ns:common.topic.notable_types ns:m.01y2jks .} }
+}
+    

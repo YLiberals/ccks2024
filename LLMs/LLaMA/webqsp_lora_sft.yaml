@@ -1,0 +1,13 @@
+# Note: DO NOT use quantized model or quantization_bit when merging lora adapters
+
+# model
+model_name_or_path: meta-llama/Llama-2-7b-hf
+adapter_name_or_path: Reading/LLaMA2-7b-hf/WebQSP_Freebase_NQ_lora_epoch100/checkpoint
+template: llama3
+finetuning_type: lora
+
+# export
+# export_dir: models/llama3_lora_sft
+# export_size: 2
+# export_device: cpu
+# export_legacy_format: false
